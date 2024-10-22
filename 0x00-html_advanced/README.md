@@ -1,0 +1,1 @@
+This directory holds projects on advanced html and all tasks on it
