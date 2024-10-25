@@ -38,7 +38,7 @@ uppercase;
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 5rem 0 irem;
+    --footer-padding: 5rem 0 1rem;
 }
 
 html {
@@ -118,7 +118,7 @@ a:active {
 
 .section-footer {
     padding: var(--section-footer-padding);
-    text-align: center;
+    text-align: var (--section-footer-align);
 }
 
 .section-tagline {
@@ -142,5 +142,5 @@ a:active {
 }
 
 .footer {
-    padding: footer-padding;
+    padding: var (footer-padding);
 }
