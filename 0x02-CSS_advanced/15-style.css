@@ -1,4 +1,4 @@
-/* normalizing css across web browsers*/
+/*box model*/
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
@@ -40,6 +40,13 @@ uppercase;
 html {
     font-size: 62.5%;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 
 body {
     color: var(--text-color);
